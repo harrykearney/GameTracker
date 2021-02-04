@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="GameTracker",
-    version="1.0.1",
+    version="2.0.1",
     author="Harry Kearney",
     author_email="kearneyharry8@gmail.com",
     description="A simple way to get player stats from a variety of games.",
@@ -13,6 +13,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/harrykearney/GameTracker",
     packages=setuptools.find_packages(),
+    install_requires=[
+        "requests",
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent"
