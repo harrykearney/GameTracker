@@ -19,14 +19,14 @@
 
 ### Usage
 
-    ```python
-    from GameTracker import CSGOTracker
+```python
+from GameTracker import CSGOTracker
 
-    me = CSGOTracker(76561198795619709)
+me = CSGOTracker(76561198795619709)
 
-    headshotpercentage = me.hsp
+headshotpercentage = me.hsp
 
-    print(hsp)```
+print(hsp)```
 
 ### Known Bugs
 
