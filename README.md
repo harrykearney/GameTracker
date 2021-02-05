@@ -26,7 +26,8 @@ me = CSGOTracker(76561198795619709)
 
 headshotpercentage = me.hsp
 
-print(hsp)```
+print(hsp)
+```
 
 ### Known Bugs
 
